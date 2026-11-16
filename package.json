@@ -1,6 +1,6 @@
 {
   "name": "@silatech/baileys",
-  "version": "0.5.6",
+  "version": "0.5.8",
   "description": "silabaileys - Sila Tech WhatsApp library (Baileys v7 fork) for SILA MD: interactive messages, albums, newsletter media upload fixes and extended message types.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

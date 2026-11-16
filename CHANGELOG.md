@@ -2,6 +2,9 @@
 
 ## silabaileys (Sila Tech)
 
+- fix: addons wiring was pasted inside `getUSyncDevices`, causing `rejectCall is not defined` on every send; moved after `sendMessage` in `messages-send.js`.
+- fix: Addons buttons (`sendButton`, `sendCarousel`, `sendCatalog`) now use the native biz node so interactive messages render instead of "Update WhatsApp".
+- feat: `mentionAll`, `scheduleMessage`, `sendStatusMention`, `enableAutoTyping`, `enableAntiCall` are now actually wired to the socket; `enableAntiCall/AutoTyping/AntiDelete` return a function that turns them off.
 - rebrand: library `silabaileys`, package `@silatech/baileys`, developer Sila Tech, project SILA MD.
 - default footer for interactive/button/list/template/carousel messages is `Sila Tech`.
 
